@@ -9,7 +9,7 @@ function App() {
           <button>Find out our calculators</button>
         </div>
       </section>
-      <div className="main-content"><img src="/assets/food.png" alt="food-prep" /></div>
+      <div className="main-content"><img src="food.png" alt="food-prep" /></div>
     </>
   );
 }
