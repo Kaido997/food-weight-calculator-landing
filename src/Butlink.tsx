@@ -1,12 +1,12 @@
-function Butlink(arg: { title: string; greetings: string }) {
+function Butlink(arg: { children: string, link: string }) {
   return (
     <>
       <button
         onClick={() => {
-          alert(arg.greetings);
+          window.open(arg.link, '_blank')
         }}
       >
-        {arg.title.toUpperCase()}
+        {arg.children}
       </button>
     </>
   );

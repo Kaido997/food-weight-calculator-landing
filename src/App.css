@@ -4,6 +4,10 @@
     flex-direction: row;
 }
 
+links {
+    text-decoration: none;
+}
+
 h2, h3 {
     font-size: 1.5em;
     font-weight: 400;
